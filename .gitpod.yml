@@ -1,0 +1,5 @@
+tasks:
+  - init: sh scripts/build.sh
+    command: sh scripts/start.sh
+image:
+  file: .gitpod.Dockerfile
